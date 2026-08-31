@@ -1,4 +1,5 @@
-# Terra Cinza V2
-PDF de teste incluído em public/terra-cinza.pdf.
-Para contador persistente, configure UPSTASH_REDIS_REST_URL e UPSTASH_REDIS_REST_TOKEN na Vercel.
-Nota: o painel desta versão salva a biografia no navegador. Para sincronizar alterações entre dispositivos e proteger com login real, ligar uma base de dados/autenticação, como Supabase.
+# Terra Cinza — site
+- index.html: site principal
+- public/terra-cinza.pdf: livro de teste
+- O contador global de downloads usa CounterAPI.
+Para atualizar o livro, substitua public/terra-cinza.pdf mantendo o mesmo nome.

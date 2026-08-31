@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terra Cinza — Saturnino Júnior</title>
+<style>
+:root{--bg:#0b0d0c;--panel:#141914;--text:#eee;--muted:#aeb6ae;--green:#8fd36b;--line:#293229}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 Georgia,serif}
+a{color:inherit}.top{position:sticky;top:0;z-index:5;background:#0b0d0cf0;border-bottom:1px solid var(--line)}
+nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;gap:20px}
+nav b{letter-spacing:3px}.links{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font:14px Arial}.links a{text-decoration:none}
+.hero{min-height:76vh;padding:90px 20px;display:grid;place-items:center;background:radial-gradient(circle at 75% 30%,#8fd36b18,transparent 30%),linear-gradient(135deg,#0b0d0c,#182019,#0b0d0c)}
+.hero>div,main{max-width:1100px;width:100%;margin:auto}.eyebrow{color:var(--green);text-transform:uppercase;letter-spacing:4px;font:12px Arial}
+h1{font-size:clamp(3.5rem,10vw,7rem);line-height:.9;margin:20px 0}.tag{color:#c9e9b6;font-style:italic;font-size:20px}.hero p{max-width:680px;color:var(--muted)}
+.btn{display:inline-block;background:var(--green);color:#10200d;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:bold;margin:8px 8px 0 0}.btn.alt{background:transparent;color:var(--text);border:1px solid var(--line)}
+main{padding:0 20px 80px}section{padding:70px 0;border-bottom:1px solid var(--line)}
+h2{font-size:32px;margin:0 0 20px}.lead{max-width:820px;font-size:18px;color:#d7ddd7}
+.quote{border-left:3px solid var(--green);padding:12px 20px;color:#c9e9b6;font-style:italic;margin:25px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card small{color:var(--green);text-transform:uppercase;letter-spacing:2px;font-family:Arial}.download{background:var(--panel);border:1px solid var(--line);padding:28px;border-radius:16px}
+.count{color:var(--muted);margin-top:18px}.count strong{color:var(--green);font-size:22px}
+footer{text-align:center;color:var(--muted);padding:40px 20px;font:14px Arial}
+@media(max-width:650px){.links{display:none}}
+</style>
+</head>
+<body>
+<header class="top"><nav><b>TERRA CINZA</b><div class="links">
+<a href="#livro">Livro</a><a href="#personagens">Personagens</a><a href="#mundo">Mundo</a><a href="#curiosidades">Curiosidades</a><a href="#autor">Autor</a><a href="#baixar">Baixar</a>
+</div></nav></header>
+
+<section class="hero"><div>
+<div class="eyebrow">Saga de fantasia sombria</div>
+<h1>Terra Cinza</h1><div class="tag">“Tudo que se semeia, morre.”</div>
+<p>Uma história de sobrevivência, poder, amizade e segredos — num mundo onde uma terra fértil começa a morrer.</p>
+<a class="btn" href="#baixar">Baixar o livro</a><a class="btn alt" href="#personagens">Conhecer personagens</a>
+</div></section>
+
+<main>
+<section id="livro"><h2>O livro</h2><p class="lead">Nankai já foi uma das terras mais férteis e biodiversas da Terra Cinza. Agora, alimentos, animais e árvores morrem, a água torna-se rara e o povo depende do Reino da Terra Verde.</p><div class="quote">“Quem tem terra verde manda.”</div><p>Quando a sobrevivência passa a depender de decisões cruéis e antigos segredos começam a aparecer, Azade decide descobrir o que realmente está acontecendo com a sua terra.</p></section>
+
+<section id="personagens"><h2>Personagens</h2><div class="grid">
+<div class="card"><small>Protagonista</small><h3>Azade Akanzani</h3><p>Jovem determinado, treinado para lutar e marcado pela responsabilidade de proteger a família e o povo de Nankai.</p></div>
+<div class="card"><small>Guerreira</small><h3>Kaela</h3><p>Habilidosa com facas e ligada à família Kaskavel, carrega perdas e uma forte vontade de vingança.</p></div>
+<div class="card"><small>Companheiro</small><h3>Edge</h3><p>Amigo de Azade, otimista e sonhador, mas capaz de enfrentar situações perigosas.</p></div>
+<div class="card"><small>Capitão</small><h3>Tubus</h3><p>Capitão ligado à Guarda Real, impulsivo e apaixonado por Clarice.</p></div>
+<div class="card"><small>Capitão</small><h3>Elody</h3><p>Mestre em poções e venenos e pai de Kaela.</p></div>
+<div class="card"><small>Antagonista</small><h3>Rei Kali</h3><p>Figura de poder ligada ao Reino da Terra Verde e aos acontecimentos que envolvem Nankai.</p></div>
+</div></section>
+
+<section id="mundo"><h2>O mundo</h2><div class="grid">
+<div class="card"><h3>Nankai</h3><p>Uma terra que já foi fértil e cobiçada pela biodiversidade, mas que agora sofre com a morte das plantações e a falta de recursos.</p></div>
+<div class="card"><h3>Terra Verde</h3><p>Reino vizinho com água, terras férteis, educação e recursos.</p></div>
+<div class="card"><h3>Rochedos Rochados</h3><p>Região cercada de histórias perigosas e medo.</p></div>
+<div class="card"><h3>Os segredos</h3><p>Por que Nankai morreu? O que está por trás da escassez? Essas perguntas movem a história.</p></div>
+</div></section>
+
+<section id="curiosidades"><h2>Curiosidades</h2><div class="grid">
+<div class="card"><small>01</small><h3>Uma terra esquecida</h3><p>Nankai já foi uma das terras mais férteis do país.</p></div>
+<div class="card"><small>02</small><h3>Sobrevivência</h3><p>O povo depende de mantimentos externos durante a escassez.</p></div>
+<div class="card"><small>03</small><h3>Família Kaskavel</h3><p>Conhecida pelos conhecimentos em venenos, poções e feitiços.</p></div>
+<div class="card"><small>04</small><h3>Os Rochedos</h3><p>Existem histórias de pessoas que entraram em regiões proibidas e nunca voltaram iguais.</p></div>
+<div class="card"><small>05</small><h3>O lema</h3><p>“O que nos tiraram com sangue, vão nos devolver com sangue.”</p></div>
+<div class="card"><small>06</small><h3>O grande mistério</h3><p>A verdadeira causa da morte de Nankai ainda precisa ser descoberta.</p></div>
+</div></section>
+
+<section id="autor"><h2>Sobre o autor</h2><div class="card"><h3>Saturnino Júnior</h3><p>Autor de <em>Terra Cinza</em>, uma história de fantasia sombria construída em torno de sobrevivência, poder, amizade, perda e resistência.</p><p style="color:#8d978f">Esta biografia pode ser substituída depois pela tua versão definitiva.</p></div></section>
+
+<section id="baixar"><h2>Baixar Terra Cinza</h2><div class="download">
+<h3>📖 Edição digital de teste</h3><p>O PDF atual é uma edição experimental. Para publicar a versão final, basta substituir <b>public/terra-cinza.pdf</b> mantendo o mesmo nome.</p>
+<a id="download" class="btn" href="public/terra-cinza.pdf" download>Baixar o PDF</a>
+<div class="count">Downloads registrados: <strong id="count">—</strong></div>
+</div></section>
+</main>
+<footer>© 2026 Saturnino Júnior • Terra Cinza<br>“Tudo que se semeia, morre.”</footer>
+
+<script>
+const NS="terra-cinza.vercel.app", ACTION="download", KEY="terra-cinza-livro";
+const api=`https://counterapi.com/api/${NS}/${ACTION}/${KEY}`;
+async function count(){
+ try{const r=await fetch(api);const d=await r.json();document.getElementById("count").textContent=Number(d.value||0).toLocaleString("pt-PT");}catch(e){}
+}
+document.getElementById("download").addEventListener("click",()=>setTimeout(count,700));
+count();
+</script>
+</body>
+</html>
